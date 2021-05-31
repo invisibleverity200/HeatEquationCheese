@@ -10,7 +10,7 @@ bool_array = np.zeros([100,100])
 old_temp = np.zeros([100,100])
 new_temp = np.zeros([100,100])
 
-D = 1.32e-7
+D = 1.55e-7
 heat_stack = np.zeros([1000,100,100])
 delta_x = 1
 my_cmap = plt.get_cmap('inferno')
