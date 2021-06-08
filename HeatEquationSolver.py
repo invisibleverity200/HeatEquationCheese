@@ -73,7 +73,6 @@ def main():
 if __name__ == "__main__":
     main()
 
-
 ani = animation.FuncAnimation(plt.gcf(), nextFrame,
                                frames=100, interval=50)
 ani.save('test.gif',writer='pillow',fps=10)
